@@ -1,49 +1,52 @@
- body {
-        background-color: #f4f4f4;
-        font-family: Arial, sans-serif;
-        color: #333;
-        text-align: center;
-        padding: 20px;
-      }
-      img {
-        width: 150px;
-        height: 150px;
-        border: 1px solid darkblue;
-        border-radius: 50%;
-        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-      }
-      h1 {
-        color: #2c3e50;
-      }
-      ul {
-        list-style-type: none;
-        padding-left: 0;
-      }
-      li {
-        margin: 5px 0;
-      }
-      a {
-        color: #2980b9;
-        text-decoration: none;
-      }
-      a:hover {
-        text-decoration: underline;
-      }
-      hr {
-        margin: 30px 0;
-        border: none;
-        border-top: 1px solid #ccc;
-      }
-      #intro {
-        background-color: darksalmon;
-        padding-top: 5px;
-        padding-bottom: 5px;
-      }
-      #hobbies {
-        background-color: rgb(30, 138, 138);
-        padding: 20px;
-      }
-      #contact {
-        background-color: darksalmon;
-        padding: 10px;
-      }
+body {
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+  color: #333;
+  text-align: center;
+  padding: 20px;
+}
+nav ul li a:hover {
+  background-color: darksalmon;
+}
+img {
+  width: 150px;
+  height: 150px;
+  border: 1px solid darkblue;
+  border-radius: 50%;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+h1 {
+  color: #2c3e50;
+}
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+li {
+  margin: 5px 0;
+}
+a {
+  color: #2980b9;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+hr {
+  margin: 30px 0;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+#intro {
+  background-color: darksalmon;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+#hobbies {
+  background-color: rgb(30, 138, 138);
+  padding: 20px;
+}
+#contact {
+  background-color: darksalmon;
+  padding: 10px;
+}
