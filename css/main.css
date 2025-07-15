@@ -7,9 +7,11 @@ body {
 }
 
 header {
-  background-color: #333;
+  background-color: rgb(30, 138, 138);
   padding: 20px 0;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  margin-bottom: 5px;
+
 }
 
 nav ul {
@@ -37,6 +39,7 @@ nav ul li a {
 
 nav ul li a:hover {
   background-color: #555;
+
 }
 
 img {
