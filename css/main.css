@@ -1,17 +1,16 @@
-body {
-  background-color: #f4f4f4;
-  font-family: Arial, sans-serif;
-  color: #333;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   text-align: center;
-  padding: 20px;
 }
 
 header {
   background-color: rgb(30, 138, 138);
   padding: 20px 0;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  margin-bottom: 5px;
-
+  width: 95%;
+  margin: 10px auto 10px auto;
 }
 
 nav ul {
@@ -65,21 +64,24 @@ a {
 a:hover {
   text-decoration: underline;
 }
-hr {
-  margin: 30px 0;
-  border: none;
-  border-top: 1px solid #ccc;
-}
+
 #intro {
   background-color: darksalmon;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 95%;
+  margin: 0px auto 10px auto;
 }
 #hobbies {
   background-color: rgb(30, 138, 138);
-  padding: 20px;
+  padding: 30px;
+  margin-bottom: 10px;
+  width: 95%;
+  margin: 0px auto 10px auto;
 }
 #contact {
   background-color: darksalmon;
-  padding: 10px;
+  padding: 30px;
+  width: 95%;
+  margin: 0px auto 10px auto;
 }
